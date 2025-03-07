@@ -1,0 +1,39 @@
+{
+  "name": "cove-qa-coding-assessment",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "start": "vite",
+    "lint": "eslint . --max-warnings=0",
+    "test:cypress": "cypress open --e2e --browser 'chrome'",
+    "test:selenium": "mocha test/**/*.spec.mjs --timeout 60000"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.474.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.0.1",
+    "@types/jasmine": "^5.1.5",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "@typescript-eslint/eslint-plugin": "^7.13.1",
+    "@typescript-eslint/parser": "^7.13.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "assert": "^2.1.0",
+    "cypress": "^14.0.1",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "eslint-plugin-react": "^7.34.3",
+    "globals": "^15.14.0",
+    "mocha": "^11.1.0",
+    "prettier": "^3.4.2",
+    "selenium-webdriver": "^4.28.1",
+    "tailwindcss": "^4.0.1",
+    "typescript": "~5.6.2",
+    "vite": "^6.0.5"
+  }
+}
